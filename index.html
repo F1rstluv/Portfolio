@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ฝึกเขียนเว็ป resume</title>
+    <title>Portfolio - Sorawit Treechot</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -29,17 +29,19 @@
 
     <section class="home" id="home">
         <div class="home-social">
-            <a href="#"><i class='bxl  bx-facebook'></i></a>
-            <a href="#"><i class='bxl  bx-instagram'></i> </a>
-            <a href="#"><i class='bxl  bx-linkedin'></i> </a>
+            <a href="#"><i class='bxl bx-facebook'></i></a>
+            <a href="#"><i class='bxl bx-instagram'></i> </a>
+            <a href="#"><i class='bxl bx-linkedin'></i> </a>
         </div>
         <div class="home-content">
             <h1 data-translate="heroTitle">Hi, I'm Sorawit Treechot</h1>
-            <h3 data-translate="heroSubtitle">Front-end Developer</h3>
-            <p data-translate="heroText">I am currently a third-year student at Sripatum University. I have skills in
-                website
-                development and knowledge of other programming languages as well.</p>
-            <a href="#" class="btn" data-translate="btnClick">Click Me</a>
+            <h3 data-translate="heroSubtitle">Front-end Developer & Automation</h3>
+            <p data-translate="heroText">I am currently a third-year student at Sripatum University. I have skills in website development and knowledge of other programming languages as well.</p>
+            
+            <div class="btn-group">
+                <a href="#contact" class="btn" data-translate="btnClick">Contact Me</a>
+                <a href="img/Resume (TH).png" target="_blank" class="btn" data-translate="btnResume">View Resume</a>
+            </div>
         </div>
 
         <div class="home-img">
@@ -47,7 +49,7 @@
                 <span></span>
                 <span></span>
                 <div class="image">
-                    <img src="img/20250307_091622128-removebg-preview.png" alt="">
+                    <img src="img/20250307_091622128-removebg-preview.png" alt="Sorawit">
                 </div>
             </div>
         </div>
@@ -63,7 +65,7 @@
                 <div class="timeline-content">
                     <h3 data-translate="eduSchool1">Sripatum University</h3>
                     <p data-translate="eduDegree1">Bachelor of Science in Information and Communication Technology</p>
-                    <p class="gpa" data-translate="eduGpa1">GPA: 3.xx</p>
+                    <p class="gpa" data-translate="eduGpa1">GPA: 3.73</p>
                 </div>
             </div>
 
@@ -87,16 +89,85 @@
         </div>
     </section>
 
-    <section id="skills" style="min-height: 100vh; padding: 100px 10%;">
-        <h2 class="heading">Skills</h2>
+    <section class="skills" id="skills">
+        <h2 class="heading" data-translate="skillsHeading">My Skills</h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3 data-translate="skillCoding">Coding Skills</h3>
+                <div class="skill-tags">
+                    <span>HTML & CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-bot'></i>
+                <h3 data-translate="skillTools">Tools & Automation</h3>
+                <div class="skill-tags">
+                    <span>Ai Automation (n8n)</span>
+                    <span>Ai Tools (Gemini, ChatGPT)</span>
+                    <span>VS Code</span>
+                    <span>Figma</span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-group'></i>
+                <h3 data-translate="skillSoft">Soft Skills</h3>
+                <div class="skill-tags">
+                    <span data-translate="soft1">Teamwork</span>
+                    <span data-translate="soft2">Self-Management</span>
+                    <span data-translate="soft3">Presentation</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="portfolio" style="min-height: 100vh; padding: 100px 10%;">
-        <h2 class="heading">Portfolio</h2>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading" data-translate="portfolioHeading">Latest Projects</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <h3 data-translate="port1Title">Voice Transcription & Summarization</h3>
+                <p data-translate="port1Desc">A system designed using N8N to transcribe audio to text and summarize the content automatically.</p>
+                <i class='bx bx-check-shield' style="color: #3cf;"></i>
+            </div>
+            <div class="portfolio-box">
+                <h3 data-translate="port2Title">Contract Management App</h3>
+                <p data-translate="port2Desc">An application built on AppSheet for contractors to easily record contracts and labor costs.</p>
+                <i class='bx bx-mobile' style="color: #3cf;"></i>
+            </div>
+            <div class="portfolio-box">
+                <h3 data-translate="port3Title">Cyber Security & ICDL</h3>
+                <p data-translate="port3Desc">Competed in Thailand Cyber Top Talent 2024 and ICDL Digital Challenge 2025.</p>
+                <i class='bx bx-trophy' style="color: #3cf;"></i>
+            </div>
+            <div class="portfolio-box">
+                <h3 data-translate="port4Title">PAPAYA POG & POG SHOP</h3>
+                <p data-translate="port4Desc">An online clothing store website developed using HTML, CSS, and JavaScript.</p>
+                <a href="https://spirmx.github.io/PAPAYA-PogPog/index.html" target="_blank" title="View Live Site">
+                    <i class='bx bx-link-external'></i>
+                </a>
+            </div>
+        </div>
     </section>
 
-    <section id="contact" style="min-height: 100vh; padding: 100px 10%;">
-        <h2 class="heading">Contact</h2>
+    <section class="contact" id="contact">
+        <h2 class="heading" data-translate="contactHeading">Contact Me!</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <i class='bx bxs-phone'></i>
+                <p>062-315-4318</p>
+            </div>
+            <div class="contact-info">
+                <i class='bx bxs-envelope'></i>
+                <p>Sorawishin09@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <i class='bx bxs-map'></i>
+                <p data-translate="address">Nong Chok, Bangkok 10530</p>
+            </div>
+        </div>
     </section>
 
     <script src="script.js"></script>
