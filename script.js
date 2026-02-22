@@ -12,6 +12,7 @@ const translations = {
     heroSubtitle: "Front-end Developer",
     heroText: "I am currently a third-year student at Sripatum University. I have skills in website development and knowledge of other programming languages as well.",
     btnClick: "Click Me",
+    btnResume: "View Resume",
 
     educationHeading: "Education",
     eduDate1: "2023 - Present",
@@ -25,7 +26,28 @@ const translations = {
     
     eduDate3: "2013 - 2016",
     eduSchool3: "Secondary School",
-    eduDegree3: "Basic Education Level"
+    eduDegree3: "Basic Education Level",
+
+    skillsHeading: "My Skills",
+    skillCoding: "Coding Skills",
+    skillTools: "Tools & Automation",
+    skillSoft: "Soft Skills",
+    soft1: "Teamwork",
+    soft2: "Self-Management",
+    soft3: "Presentation",
+
+    portfolioHeading: "Latest Projects",
+    port1Title: "Voice Transcription & Summarization",
+    port1Desc: "A system designed using N8N to transcribe audio to text and summarize the content automatically.",
+    port2Title: "Contract Management App",
+    port2Desc: "An application built on AppSheet for contractors to easily record contracts and labor costs.",
+    port3Title: "Cyber Security & ICDL",
+    port3Desc: "Competed in Thailand Cyber Top Talent 2024 and ICDL Digital Challenge 2025.",
+    port4Title: "PAPAYA POG & POG SHOP",
+    port4Desc: "An online clothing store website developed using HTML, CSS, and JavaScript.",
+
+    contactHeading: "Contact Me!",
+    address: "Nong Chok, Bangkok 10530"
   },
   
   th: {
@@ -38,6 +60,7 @@ const translations = {
     heroSubtitle: "นักพัฒนา Front-end",
     heroText: "ตอนนี้กำลังศึกษาอยู่ปีที่ 3 ที่มหาวิทยาลัยศรีปทุม มีทักษะในการพัฒนาเว็บไซต์และมีความรู้ภาษาโปรแกรมอื่น ๆ เพิ่มเติม",
     btnClick: "ติดต่อ",
+    btnResume: "ดูเรซูเม่",
 
     educationHeading: "ประวัติการศึกษา",
     eduDate1: "2566 - ปัจจุบัน",
@@ -51,7 +74,28 @@ const translations = {
     
     eduDate3: "2556 - 2559",
     eduSchool3: "โรงเรียนมัธยมศึกษา",
-    eduDegree3: "ระดับมัธยมศึกษาตอนต้น"
+    eduDegree3: "ระดับมัธยมศึกษาตอนต้น",
+
+    skillsHeading: "ทักษะความสามารถ",
+    skillCoding: "ทักษะการเขียนโค้ด",
+    skillTools: "เครื่องมือและออโตเมชัน",
+    skillSoft: "ทักษะด้านบุคคล",
+    soft1: "การทำงานเป็นทีม",
+    soft2: "การจัดการตนเอง",
+    soft3: "การนำเสนอ",
+
+    portfolioHeading: "ผลงานที่โดดเด่น",
+    port1Title: "ระบบถอดข้อความและสรุปเนื้อหา",
+    port1Desc: "ระบบอัตโนมัติที่ออกแบบจากโปรแกรม N8N เพื่อถอดข้อความจากเสียงและสรุปเนื้อหา",
+    port2Title: "แอป Contract Management",
+    port2Desc: "แอปพลิเคชันสำหรับผู้รับเหมาก่อสร้าง สร้างบน AppSheet เพื่อบันทึกสัญญาและค่าแรง",
+    port3Title: "กิจกรรมการแข่งขัน",
+    port3Desc: "เข้าร่วมแข่งขัน Thailand Cyber Top Talent 2024 และ ICDL Digital Challenge 2025",
+    port4Title: "เว็บไซต์ PAPAYA POG & POG SHOP",
+    port4Desc: "พัฒนาเว็บไซต์ร้านขายเสื้อผ้าออนไลน์ โดยใช้ HTML, CSS และ JavaScript",
+
+    contactHeading: "ช่องทางการติดต่อ",
+    address: "เขตหนองจอก กทม. 10530"
   }
 };
 
