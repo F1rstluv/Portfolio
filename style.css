@@ -224,6 +224,21 @@ body {
     background-position: 100% 0;
 }
 
+.btn-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* เผื่อในมือถือจอเล็ก ปุ่มจะปัดลงมาบรรทัดใหม่ให้อัตโนมัติ */
+}
+
+/* ลบ margin-top ของเดิมใน p เพื่อให้ปุ่มขยับขึ้นมาสวยๆ */
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 30px; 
+    opacity: 0;
+    animation: slideLeft .5s ease forwards;
+    animation-delay: .95s;
+}
+
 .home-social a{
     position: relative;
     display: flex;
@@ -696,4 +711,170 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+/* ================= SKILLS SECTION ================= */
+.skills {
+    min-height: 100vh;
+    padding: 100px 10%;
+    background: #0c1022;
+}
+
+.skills .heading, .portfolio .heading, .contact .heading {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 3rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skills-box {
+    flex: 1 1 300px;
+    background: #131935;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: 0.4s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.skills-box:hover {
+    border-color: #3cf;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #3cf;
+}
+
+.skills-box i {
+    font-size: 50px;
+    color: #f06;
+    margin-bottom: 15px;
+}
+
+.skills-box h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-tags span {
+    padding: 8px 15px;
+    background: rgba(51, 204, 255, 0.1);
+    color: #3cf;
+    border: 1px solid #3cf;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.skill-tags span:hover {
+    background: #3cf;
+    color: #0c1022;
+}
+
+/* ================= PORTFOLIO SECTION ================= */
+.portfolio {
+    min-height: 100vh;
+    padding: 100px 10%;
+    background: #131935;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
+
+.portfolio-box {
+    position: relative;
+    border-radius: 20px;
+    background: #0c1022;
+    padding: 40px 30px;
+    text-align: left;
+    overflow: hidden;
+    border: 2px solid #3cf;
+    transition: 0.5s ease;
+}
+
+.portfolio-box:hover {
+    box-shadow: 0 0 20px #f06;
+    border-color: #f06;
+    transform: scale(1.02);
+}
+
+.portfolio-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #3cf;
+}
+
+.portfolio-box p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.portfolio-box i {
+    font-size: 24px;
+    color: #f06;
+    cursor: pointer;
+}
+
+/* ================= CONTACT SECTION ================= */
+.contact {
+    min-height: 60vh;
+    padding: 100px 10%;
+    background: #0c1022;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-info i {
+    font-size: 40px;
+    color: #3cf;
+    margin-bottom: 15px;
+    background: #131935;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(51, 204, 255, 0.4);
+    transition: 0.3s;
+}
+
+.contact-info:hover i {
+    color: #f06;
+    box-shadow: 0 0 20px #f06;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #fff;
 }
