@@ -18,16 +18,12 @@ const translations = {
     eduDate1: "2023 - Present",
     eduSchool1: "Sripatum University",
     eduDegree1: "Bachelor of Science in Information and Communication Technology",
-    eduGpa1: "GPA: 3.xx",
+    eduGpa1: "GPA: 3.73",
     
     eduDate2: "2017 - 2022",
     eduSchool2: "Triamudomsuksanomklao School",
-    eduDegree2: "High School - Science & Math Program",
+    eduDegree2: "High School - English for tourism",
     
-    eduDate3: "2013 - 2016",
-    eduSchool3: "Secondary School",
-    eduDegree3: "Basic Education Level",
-
     skillsHeading: "My Skills",
     skillCoding: "Coding Skills",
     skillTools: "Tools & Automation",
@@ -66,16 +62,12 @@ const translations = {
     eduDate1: "2566 - ปัจจุบัน",
     eduSchool1: "มหาวิทยาลัยศรีปทุม",
     eduDegree1: "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
-    eduGpa1: "เกรดเฉลี่ย: 3.xx",
+    eduGpa1: "เกรดเฉลี่ย: 3.73",
     
-    eduDate2: "2560 - 2565",
+    eduDate2: "2560 - 2566",
     eduSchool2: "โรงเรียนเตรียมอุดมศึกษาน้อมเกล้า",
-    eduDegree2: "มัธยมศึกษาตอนปลาย (สายวิทย์-คณิต)",
+    eduDegree2: "มัธยมศึกษาตอนปลาย (ภาษาอังกฤษเพื่อการท่องเที่ยว)",
     
-    eduDate3: "2556 - 2559",
-    eduSchool3: "โรงเรียนมัธยมศึกษา",
-    eduDegree3: "ระดับมัธยมศึกษาตอนต้น",
-
     skillsHeading: "ทักษะความสามารถ",
     skillCoding: "ทักษะการเขียนโค้ด",
     skillTools: "เครื่องมือและออโตเมชัน",
